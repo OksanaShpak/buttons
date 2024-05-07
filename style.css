@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.contact-btns {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+:not(:checked) + .contact-btns {
+  display: none;
+}
